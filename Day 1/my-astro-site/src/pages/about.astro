@@ -1,0 +1,14 @@
+---
+// This is the frontmatter section for Astro components
+---
+<h1>About Page</h1>
+<p>Welcome to the about page, built with Astro and Vanilla JS!</p>
+
+<button id="click-elem">Click Me</button>
+
+<script>
+    const clickElem = document.querySelector('#click-elem');
+    clickElem.addEventListener('click', function(){
+        alert('Welcome to Astro!');
+    })
+</script>
